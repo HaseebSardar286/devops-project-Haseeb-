@@ -42,7 +42,7 @@ header nav ul li a {
     font-weight: bold;
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
     background: url('hero-image.jpg') no-repeat center center/cover;
     height: 400px;
