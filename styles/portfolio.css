@@ -1,0 +1,23 @@
+
+.portfolio {
+  padding: 50px 0;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.portfolio h2 {
+  margin-bottom: 20px;
+}
+
+.portfolio-item {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
