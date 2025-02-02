@@ -1,0 +1,25 @@
+name: Production CI
+
+on:
+  pull_request:
+    branches:
+      - production
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Tests
+        run: npm test
+
+      - name: Run Linting
+        run: npm run lint
+
+      - name: Build Project
+        run: npm run build
