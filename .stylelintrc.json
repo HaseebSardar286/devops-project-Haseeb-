@@ -12,6 +12,8 @@
     "max-nesting-depth": 3,
     "property-no-unknown": true,
     "declaration-no-important": true,
-    "shorthand-property-no-redundant-values": true
+    "shorthand-property-no-redundant-values": true,
+    "color-function-notation": "modern",
+    "alpha-value-notation": "percentage"
   }
 }
