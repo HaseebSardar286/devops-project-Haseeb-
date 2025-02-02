@@ -1,19 +1,27 @@
 {
   "name": "term-project-f24",
   "version": "1.0.0",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "DevOps Term Project - Static Website Deployment",
+  "author": "Your Team Name",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imranucp/term-project-f24.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/imranucp/term-project-f24/issues"
   },
   "homepage": "https://github.com/imranucp/term-project-f24#readme",
-  "description": ""
+  "keywords": ["DevOps", "GitHub Actions", "CI/CD", "Static Website"],
+  "scripts": {
+    "lint:html": "htmlhint '**/*.html'",
+    "lint:css": "stylelint '**/*.css'",
+    "lint": "npm run lint:html && npm run lint:css",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.10.1",
+    "stylelint-config-standard": "^34.0.0"
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "indentation": 2,
+    "color-hex-case": "lower",
+    "color-hex-length": "short",
+    "number-leading-zero": "always",
+    "selector-max-id": 0,
+    "selector-max-universal": 0,
+    "selector-max-class": 3,
+    "block-no-empty": true,
+    "max-nesting-depth": 3,
+    "property-no-unknown": true,
+    "declaration-no-important": true,
+    "shorthand-property-no-redundant-values": true,
+    "color-function-notation": "modern",
+    "alpha-value-notation": "percentage"
+  }
+}

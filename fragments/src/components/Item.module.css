@@ -1,0 +1,12 @@
+.bg-color {
+  background-color: darkseagreen;
+}
+
+.span {
+  font-weight: 500;
+  color: rgb(210, 30, 30);
+}
+
+.button {
+  float: right;
+}
