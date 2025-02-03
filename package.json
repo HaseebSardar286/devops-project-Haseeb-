@@ -17,7 +17,8 @@
     "lint:html": "htmlhint '**/*.html'",
     "lint:css": "stylelint '**/*.css'",
     "lint": "npm run lint:html && npm run lint:css",
-    "test": "echo \"No test specified\" && exit 1"
+    "test": "echo \"No test specified\" && exit 1",
+    "build": "parcel build src/home.html --dist-dir dist --public-url ./"
   },
   "devDependencies": {
     "htmlhint": "^1.1.4",
